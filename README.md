@@ -27,7 +27,7 @@ Users should be able to:
 - Receive an error message when the newsletter sign up `form` is submitted if:
   - The `input` field is empty
   - The email address is not formatted correctly
-- Success message when sign up form is submited
+- Success message when newsletter form is submited
 
 ### Screenshot
 
