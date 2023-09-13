@@ -23,7 +23,7 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size (mobile and desktop)
 - See hover states for all interactive elements on the page
 - See all testimonials in a horizontal slider
-- Drag slider on mobile size
+- On swipe slider on mobile size
 - Receive an error message when the newsletter sign up `form` is submitted if:
   - The `input` field is empty
   - The email address is not formatted correctly
@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site]()
+- Live Site URL: [Live Site](https://manage-landing-page-seven-theta.vercel.app/)
 
 ## My process
 
@@ -49,10 +49,12 @@ Users should be able to:
 - [Typescropt](https://www.typescriptlang.org/) - Typescript
 - [Next.js](https://nextjs.org/) - React framework
 - [Tailwind CSS](https://tailwindcss.com/) - For styles
+- [Framer Motion](https://www.framer.com/motion/) - desktop testimonials carousel
+- [React Swipeable](https://www.npmjs.com/package/react-swipeable) - mobile testimonials carousel
 
 ### What I learned
 
-This was great exercise overall in building landing page and creating page from design to code.
+When faced with mobile testimonials component and how to implement finger swipe I discovered great library 'react-swipeable' , very easy to implement.
 
 ### Continued development
 

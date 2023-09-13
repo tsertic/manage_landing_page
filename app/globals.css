@@ -47,6 +47,9 @@
   .transition-universal {
     @apply transition-all duration-300;
   }
+  .hover-primary {
+    @apply hover:fill-primary hover:text-primary transition-all duration-300;
+  }
 }
 @layer utilities {
   .primary-gradient {

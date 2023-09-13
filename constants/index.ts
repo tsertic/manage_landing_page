@@ -40,33 +40,33 @@ export const footer_links = [
   },
   {
     _id: "1",
-    text: "pricing",
-    path: "/pricing",
-  },
-  {
-    _id: "2",
-    text: "product",
-    path: "/product",
-  },
-  {
-    _id: "3",
-    text: "about us",
-    path: "/about",
-  },
-  {
-    _id: "4",
     text: "careers",
     path: "/careers",
   },
   {
-    _id: "5",
+    _id: "2",
+    text: "pricing",
+    path: "/pricing",
+  },
+  {
+    _id: "3",
     text: "comunity",
     path: "/comunity",
   },
   {
-    _id: "6",
+    _id: "4",
+    text: "product",
+    path: "/product",
+  },
+  {
+    _id: "5",
     text: "privacy policy",
     path: "/privacy-policy",
+  },
+  {
+    _id: "6",
+    text: "about us",
+    path: "/about",
   },
 ];
 
