@@ -5,6 +5,7 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [PageSpeed Insights Report](#pagespeed-insights-report)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -32,6 +33,13 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.png)
+
+### PageSpeed Insights Report
+
+![](./pagespeed-report.png)
+
+Note:
+-95 Accessibility because "Background and foreground colors do not have a sufficient contrast ratio" , decided to be close as much as figma design.
 
 ### Links
 
