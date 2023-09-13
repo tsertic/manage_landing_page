@@ -23,6 +23,7 @@ export const MobileNavModal: React.FC<IMobileNavModal> = ({
               href={item.path}
               key={item._id}
               className="text-base-content text-navMobile capitalize"
+              aria-label={`link to page ${item.text}`}
             >
               {item.text}
             </Link>

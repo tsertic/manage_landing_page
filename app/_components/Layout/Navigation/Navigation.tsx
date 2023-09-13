@@ -20,7 +20,7 @@ export const Navigation = () => {
 
           <DesktopNavList />
           <div className="hidden lg:block">
-            <Button dark={false} href="/" ariaLabel="link to get started form">
+            <Button dark={false} href="/" ariaLabel="get started">
               Get Started
             </Button>
           </div>

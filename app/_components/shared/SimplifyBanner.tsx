@@ -16,7 +16,7 @@ export const SimplifyBanner = () => {
         <p className="text-headingL text-primary-content leading-[-1px] max-lg:text-center lg:max-w-[445px] relative z-20">
           Simplify how your team works today.
         </p>
-        <Button dark={true} href="/" ariaLabel="get started link">
+        <Button dark={true} href="/" ariaLabel="get started ">
           Get Started
         </Button>
       </div>

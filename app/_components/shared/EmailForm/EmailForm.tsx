@@ -35,6 +35,7 @@ export const EmailForm = () => {
         <button
           type="submit"
           disabled={notValidEmail}
+          aria-label="go - submit to newsletter"
           className={`
         bg-primary text-primary-content hover:bg-primary-focus  text-[13px] leading-normal font-bold  py-[12px] px-[23px] rounded-[22px] ${
           notValidEmail && "cursor-not-allowed"
