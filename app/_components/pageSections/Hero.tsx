@@ -5,10 +5,10 @@ export const Hero = () => {
   return (
     <div className="relative container-wide flex flex-col-reverse lg:flex-row gap-[19px] lg:gap-[115px] px-[32px] lg:px-0">
       <div className="w-full lg:max-w-[445px]  text-center lg:text-left lg:pt-[50px]">
-        <h1 className=" text-headingL lg:text-headingXL mb-[9px] lg:mb-[16px] text-base-content">
+        <h1 className=" text-headingL lg:text-headingXL mb-[9px] lg:mb-[18px] text-base-content">
           Bring everyone together to build better products.
         </h1>
-        <p className="mb-[29px] xl:mb-[40px]">
+        <p className="mb-[29px] xl:mb-[40px] xl:max-w-[350px]">
           Manage makes it simple for software teams to plan day-to-day tasks
           while keeping the larger team goals in view.
         </p>
