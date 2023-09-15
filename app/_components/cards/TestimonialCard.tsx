@@ -13,7 +13,7 @@ export const TestimonialCard: React.FC<ITestimonialCard> = ({ cardData }) => {
         height={72}
         width={72}
         alt={`${author} avatar`}
-        className="absolute top-[-36px] left-[50%] -translate-x-1/2"
+        className="absolute top-[-36px] left-[50%] -translate-x-1/2 pointer-events-none"
       />
       <p className="text-base-content font-bold mb-[19px]">{author}</p>
       <p>&quot;{text}&quot;</p>

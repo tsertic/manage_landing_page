@@ -16,13 +16,13 @@ export const TestimonialsSliderDesktop = () => {
   return (
     <motion.div
       ref={carouselRef}
-      className="w-full max-w-[1680px] mx-auto overflow-hidden pt-[100px] cursor-grab hidden md:block"
+      className="w-full max-w-[1680px] mx-auto overflow-hidden pt-[100px]  hidden md:block"
     >
       <motion.div
         drag="x"
         dragConstraints={{ right: 125, left: -carouselWidth }}
         initial={{ translateX: "-125px" }}
-        className="flex gap-[30px]"
+        className="flex gap-[30px] cursor-grab active:cursor-grabbing"
       >
         {testimonials.map((testimonial) => {
           return (

@@ -12,7 +12,7 @@ export default function Home() {
         <Hero />
         <PatternMiddleMobile />
       </section>
-      <section className="relative mb-[146px]">
+      <section className="relative mb-[136px]">
         <About />
         <PatternMiddleDesktop />
       </section>
